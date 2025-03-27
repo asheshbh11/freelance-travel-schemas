@@ -1,0 +1,17 @@
+[
+    {
+        "cartItemId": int,
+        "quantity": int,
+        "bookingData": [
+            {
+                "quantityIndex": int,
+                "timeId": string,
+                "commences": string,
+                "pickupId": string,
+                "pickupLocation": string,
+                "dropoffId": string,
+                "dropoffLocation": string
+            }
+        ]
+    },
+]

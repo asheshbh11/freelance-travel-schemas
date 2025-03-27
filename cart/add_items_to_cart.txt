@@ -1,0 +1,19 @@
+{
+    "tdmsProductId": int,
+    "productPricesDetails": [
+        {
+            "productPricesDetailsId": int,
+            "quantityDetails": [
+                {
+                    "quantity": int,
+                    "bookingDate": date,
+                    "timeId": string,
+                    "commences": string
+                }
+            ]
+        }
+    ],
+    "startDate": date,
+    "days": int,
+    "selectedAvailableIndices": array
+}
